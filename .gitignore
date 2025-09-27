@@ -11,3 +11,8 @@ dist/*
 checkpoint
 htmlcov
 mnist
+
+# IDE Settings - Keep machine-specific
+.vscode/
+.cursor/
+*.code-workspace

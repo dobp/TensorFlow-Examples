@@ -1,0 +1,82 @@
+{
+    // Lubuntu-specific Cursor settings
+    // Copy this to ~/.config/cursor/User/settings.json
+    
+    // General editor settings
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
+    "editor.fontLigatures": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    
+    // Python settings
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "python.analysis.autoImportCompletions": true,
+    
+    // Terminal settings
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "'Fira Code', 'JetBrains Mono', monospace",
+    
+    // File settings
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    
+    // Git settings
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    
+    // Cursor-specific settings
+    "cursor.cpp.disabledLanguages": [],
+    "cursor.general.enableCodeActions": true,
+    "cursor.chat.enabled": true,
+    
+    // Theme and appearance
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "vs-seti",
+    "workbench.startupEditor": "welcomePage",
+    
+    // Search settings
+    "search.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/.venv": true,
+        "**/venv": true
+    },
+    
+    // Exclude patterns
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/node_modules": true,
+        "**/.venv": true,
+        "**/venv": true
+    },
+    
+    // Jupyter settings
+    "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    
+    // IntelliSense settings
+    "editor.suggestSelection": "first",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": "off"
+}
